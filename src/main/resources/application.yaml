@@ -1,3 +1,6 @@
 spring:
   application:
     name: LebaneseTCG_Player
+  jpa:
+    hibernate:
+      ddl-auto: update
